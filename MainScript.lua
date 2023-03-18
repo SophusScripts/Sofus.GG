@@ -5,23 +5,23 @@ local Window = Rayfield:CreateWindow({
    LoadingTitle = "Sofus BedWars",
    LoadingSubtitle = "Injecting API",
    ConfigurationSaving = {
-      Enabled = false,
-      FolderName = nil, -- Create a custom folder for your hub/game
-      FileName = "Big Hub"
+      Enabled = true,
+      FolderName = SofusGG, -- Create a custom folder for your hub/game
+      FileName = "Sofus"
    },
    Discord = {
-      Enabled = false,
+      Enabled = true,
       Invite = "noinvitelink", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD.
       RememberJoins = true -- Set this to false to make them join the discord every time they load it up
    },
-   KeySystem = false, -- Set this to true to use our key system
+   KeySystem = true, -- Set this to true to use our key system
    KeySettings = {
-      Title = "Sirius Hub",
+      Title = "Sofus.GG",
       Subtitle = "Key System",
-      Note = "Join the discord (discord.gg/sirius)",
+      Note = "http://adfoc.us/80052889186864",
       FileName = "SiriusKey",
       SaveKey = true,
-      GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
-      Key = "Hello"
+      GrabKeyFromSite = true, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from - 12819866175
+      Key = "https://pastebin.com/raw/Sc5pRfhJ"
    }
 })
