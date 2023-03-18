@@ -25,3 +25,5 @@ local Window = Rayfield:CreateWindow({
       Key = "https://pastebin.com/raw/Sc5pRfhJ"
    }
 })
+
+local Tab = Window:CreateTab("Home", 12819866175) -- Title, Image
