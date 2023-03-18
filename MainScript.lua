@@ -26,12 +26,12 @@ local Window = Rayfield:CreateWindow({
    }
 })
 
-local Tab = Window:CreateTab("Home", 12819866175) -- Title, Image
+local Tab = Window:CreateTab("Home", 4483362458) -- Title, Image
 
 local Section = Tab:CreateSection("do this pls")
 
 
-local Tab = Window:CreateTab("Bedwars", 12819866175) -- Title, Image
+local Tab = Window:CreateTab("Bedwars", 4483362458) -- Title, Image
 
 local Section = Tab:CreateSection("Combat")
 
