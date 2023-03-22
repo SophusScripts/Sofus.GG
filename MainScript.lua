@@ -2,7 +2,7 @@ local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shle
 
 local Window = Rayfield:CreateWindow({
    Name = "Sofus.GG | Beta | Public",
-   LoadingTitle = "Sofus BedWars",
+   LoadingTitle = "Sofus Universal",
    LoadingSubtitle = "Injecting API",
    ConfigurationSaving = {
       Enabled = true,
@@ -19,7 +19,7 @@ local Window = Rayfield:CreateWindow({
       Title = "Sofus.GG",
       Subtitle = "Key System",
       Note = "http://adfoc.us/80052889186864",
-      FileName = "SiriusKey",
+      FileName = "SofusKey",
       SaveKey = true,
       GrabKeyFromSite = true, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from - 12819866175
       Key = "https://pastebin.com/raw/Sc5pRfhJ"
@@ -33,8 +33,16 @@ local Section = Tab:CreateSection("do this pls")
 
 local Tab = Window:CreateTab("Bedwars", 4483362458) -- Title, Image
 
-local Section = Tab:CreateSection("Combat")
+local Section = Tab:CreateSection("General")
 
+local Toggle = Tab:CreateToggle({
+   Name = "CFrame Fly",
+   CurrentValue = false,
+   Flag = "CFRAMEFLY", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+   Callback = function(Value)
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/Lost20/Roblox-Scripts/main/Cframe%20fly'))()
+   end,
+})
 
 local Section = Tab:CreateSection("Blatant")
 
