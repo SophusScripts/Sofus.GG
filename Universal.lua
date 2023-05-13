@@ -1,5 +1,7 @@
 local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/nachodevv2/Sofus-UI/main/source'))()
 
+-- Discord Actions helped by Zapier
+
 local Window = Rayfield:CreateWindow({
    Name = "Sophus.GG | Beta | Public",
    LoadingTitle = "Sophus Universal",
