@@ -27,3 +27,6 @@ local Window = Rayfield:CreateWindow({
 })
 
 local Tab = Window:CreateTab("Home", 4483362458) -- Title, Image
+
+local Section = Tab:CreateSection("Welcome")
+local Paragraph = Tab:CreateParagraph({Title = "What is Sophus?", Content = "Welcome to SophusGG, a powerful and versatile Roblox scripting tool designed to elevate your gaming experience to new heights. With SophusGG, you gain access to a vast array of features and functionalities, enabling you to enhance, customize, and optimize your Roblox games with ease. Unlock the potential of your games using the intuitive interface of SophusGG. Whether you're a beginner or an experienced scripter, this tool empowers you to create stunning gameplay mechanics, immersive worlds, and interactive environments. From complex AI systems to advanced GUI designs, SophusGG provides the tools and resources you need to bring your ideas to life."})
