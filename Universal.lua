@@ -1,4 +1,4 @@
-local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
+local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/nachodevv2/Sofus-UI/main/source'))()
 
 local Window = Rayfield:CreateWindow({
    Name = "Sophus.GG | Beta | Public",
